@@ -1,0 +1,17 @@
+Optimized
+
+vbroadcastss ymm1, DWORD PTR [rdi+rax]
+vmovups ymm0, YMMWORD PTR [r8+rax*4]
+vfmadd213ps ymm0, ymm1, YMMWORD PTR [rdx+rax*4]
+vmovups YMMWORD PTR [rdx+rax*4], ymm0
+vzeroupper
+
+Baseline
+
+movss xmm0, DWORD PTR [rcx+rax*4]
+movss DWORD PTR value$1[rsp], xmm0
+movss xmm0, DWORD PTR value$1[rsp]
+mulss xmm0, DWORD PTR [rax+rcx*4]
+movss xmm1, DWORD PTR [rax+rcx*4]
+addss xmm1, xmm0
+movss DWORD PTR [rax+rcx*4], xmm0

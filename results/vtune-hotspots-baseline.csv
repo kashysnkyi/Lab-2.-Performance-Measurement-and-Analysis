@@ -1,0 +1,28 @@
+Hierarchy Level,Metric Name,Metric Value
+0,Elapsed Time,29.626811
+1,CPU Time,27.687379
+2,Effective Time,27.687379
+2,Spin Time,0.0
+2,Overhead Time,0.0
+1,Total Thread Count,1
+1,Paused Time,0.0
+0,Top Hotspots,
+0,Function,Module,CPU Time,% of CPU Time(%)
+0,matmul_kernel,matmul_baseline.exe,27.672024,99.9
+0,checksum,matmul_baseline.exe,0.015349,0.1
+0,initialize,matmul_baseline.exe,0.000006,0.0
+0,Collection and Platform Info,
+1,Application Command Line,C:\Users\Користувач\Documents\Codex\2026-10-16\1-flamegraph-1-1-2-1\outputs\flamegraph-lab-vs2026-v5\build\bin\Release\matmul_baseline.exe "768" "20" 
+1,Operating System,Microsoft Windows 11
+1,Computer Name,DESKTOP-1KPGLGS
+1,Result Size,3946662
+1,Collection start time,11:18:41 16/10/2026 UTC
+1,Collection stop time,11:19:11 16/10/2026 UTC
+1,Collector Type,User-mode sampling and tracing
+1,CPU,
+2,Name,Intel(R) microarchitecture code named Alderlake-P
+2,Frequency,3110412259
+2,Logical CPU Count,16
+2,Cache Allocation Technology,
+3,Level 2 capability,not detected
+3,Level 3 capability,not detected
