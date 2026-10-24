@@ -1,3 +1,3 @@
-"Variant","N","Repeats","Trials","BatchRuns","MedianSecondsPerRun","MedianPackageJoulesPerRun","MedianIdleJoulesPerRun","MedianDynamicProgramJoulesPerRun","MedianWorkloadAverageWatts","MedianIdleAverageWatts"
-"baseline","768","6","5","3","3,508466","83,689824","34,703388","48,463829","24,194264","9,917432"
-"optimized","768","6","5","27","0,241265","6,652644","2,516736","4,159954","27,622101","10,368456"
+﻿"Variant","N","Repeats","Trials","BatchRuns","MedianSecondsPerRun","MedianPackageJoulesPerRun","MedianIdleJoulesPerRun","MedianDynamicProgramJoulesPerRun","MedianWorkloadAverageWatts","MedianIdleAverageWatts"
+"baseline","768","6","5","2","5,5650951","71,1833095008","47,5097279994","23,133518001","12,4372428773941","7,90434355512233"
+"optimized","768","6","5","8","1,019397125","9,59921924985","7,851317625","1,69331424975","9,41656496220744","7,68422426442293"

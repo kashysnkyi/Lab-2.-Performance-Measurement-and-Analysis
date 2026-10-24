@@ -53,3 +53,31 @@ foreach ($variant in 'baseline','optimized') {
 
 $rows | Export-Csv -NoTypeInformation -Encoding utf8 (Join-Path $root 'results\energy-results.csv')
 
+function Get-Median([double[]] $Values) {
+    $sorted = $Values | Sort-Object
+    $middle = [math]::Floor($sorted.Count / 2)
+    if ($sorted.Count % 2 -eq 0) {
+        return ($sorted[$middle - 1] + $sorted[$middle]) / 2.0
+    }
+    return $sorted[$middle]
+}
+
+$summary = foreach ($group in ($rows | Group-Object Variant)) {
+    $items = $group.Group
+    [pscustomobject]@{
+        Variant = $group.Name
+        N = $N
+        Repeats = $Repeats
+        Trials = $items.Count
+        BatchRuns = $items[0].BatchRuns
+        MedianSecondsPerRun = Get-Median @($items.SecondsPerRun)
+        MedianPackageJoulesPerRun = Get-Median @($items.PackageJoulesPerRun)
+        MedianIdleJoulesPerRun = Get-Median @($items.IdleJoulesPerRun)
+        MedianDynamicProgramJoulesPerRun = Get-Median @($items.ProgramJoulesPerRun)
+        MedianWorkloadAverageWatts = Get-Median @($items.WorkloadWatts)
+        MedianIdleAverageWatts = Get-Median @($items.IdleWatts)
+    }
+}
+
+$summary | Export-Csv -NoTypeInformation -Encoding utf8 (Join-Path $root 'results\energy-summary.csv')
+

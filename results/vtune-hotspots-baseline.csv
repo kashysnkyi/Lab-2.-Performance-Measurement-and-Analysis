@@ -1,3 +1,4 @@
-Function,CPU Time,CPU Time:Effective Time,CPU Time:Spin Time,CPU Time:Overhead Time,Module,Function (Full),Source File,Start Address
-matmul_kernel,14.796600,14.796600,0.0,0.0,matmul_baseline.exe,"matmul_kernel(const float *, const float *, float *, unsigned __int64)",matmul.cpp,0x140001200
-initialize,0.000015,0.000015,0.0,0.0,matmul_baseline.exe,"initialize(float *, float *, unsigned __int64)",matmul.cpp,0x1400010c0
+﻿Function,CPU Time,CPU Time:Effective Time,CPU Time:Spin Time,CPU Time:Overhead Time,Module,Function (Full),Source File,Start Address
+matmul_kernel,15.066784,15.066784,0.0,0.0,matmul_baseline.exe,"matmul_kernel(const float *, const float *, float *, unsigned __int64)",matmul.cpp,0x140001200
+checksum,0.015253,0.015253,0.0,0.0,matmul_baseline.exe,"checksum(const float *, unsigned __int64)",matmul.cpp,0x140001330
+initialize,0.001443,0.001443,0.0,0.0,matmul_baseline.exe,"initialize(float *, float *, unsigned __int64)",matmul.cpp,0x1400010c0
