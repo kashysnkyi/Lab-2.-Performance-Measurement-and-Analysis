@@ -1,186 +1,184 @@
 Hierarchy Level,Metric Name,Metric Value
-0,Elapsed Time,0.238437
-1,Clockticks,1410870460
-2,Performance-core (P-core),790210760
-2,Efficient-core (E-core),620659700
-1,Instructions Retired,1507694954
-2,Performance-core (P-core),579614418
-2,Efficient-core (E-core),928080536
-1,CPI Rate,0.935780
-2,Performance-core (P-core),1.363339
-2,Efficient-core (E-core),0.668756
+0,Elapsed Time,0.417738
+1,Clockticks,3723094384
+2,Performance-core (P-core),3279420216
+2,Efficient-core (E-core),443674168
+1,Instructions Retired,2836148506
+2,Performance-core (P-core),2613781702
+2,Efficient-core (E-core),222366804
+1,CPI Rate,1.312729
+2,Performance-core (P-core),1.254665
+2,Efficient-core (E-core),1.995236
 1,MUX Reliability,1.000000
 1,Performance-core (P-core),
-2,Retiring,3.6
-3,Light Operations,2.9
-4,FP Arithmetic,100.0
+2,Retiring,17.7
+3,Light Operations,14.6
+4,FP Arithmetic,0.5
 5,FP x87,0.0
-5,FP Scalar,0.7
-5,FP Vector,100.0
-6,128-bit FP Vector,0.5
-6,256-bit FP Vector,100.0
-4,Integer Operations,0.1
-5,128-bit Integer Vector Operations,0.1
+5,FP Scalar,0.2
+5,FP Vector,0.2
+6,128-bit FP Vector,0.1
+6,256-bit FP Vector,49.0
+4,Integer Operations,0.0
+5,128-bit Integer Vector Operations,0.0
 5,256-bit Vector Operations,0.0
-4,Memory Operations,4.2
-4,Fused Instructions,5.3
+4,Memory Operations,11.6
+4,Fused Instructions,3.2
 4,Non Fused Branches,0.0
 4,Other,0.0
 5,Nop Instructions,0.1
 5,Shuffles_256b,0.0
-3,Heavy Operations,0.8
-4,Few Uops Instructions,0.8
+3,Heavy Operations,3.1
+4,Few Uops Instructions,3.1
 4,Microcode Sequencer,0.0
 5,Assists,0.0
 6,Page Faults,0.0
 6,FP Assists,0.0
 6,AVX Assists,0.0
 5,CISC,0.0
-2,Front-End Bound,13.3
-3,Front-End Latency,7.6
-4,ICache Misses,22.0
+2,Front-End Bound,44.9
+3,Front-End Latency,36.8
+4,ICache Misses,10.8
 5,Code L2 Hit,0.0
-5,Code L2 Miss,76.7
-4,ITLB Misses,25.2
-5,Code STLB Hit,12.2
-5,Code STLB Miss,13.0
-6,Code STLB Miss 4K,13.0
+5,Code L2 Miss,16.5
+4,ITLB Misses,10.1
+5,Code STLB Hit,6.4
+5,Code STLB Miss,3.7
+6,Code STLB Miss 4K,3.6
 6,Code STLB Miss 2M,0.0
-4,Branch Resteers,19.1
-5,Mispredicts Resteers,2.6
-5,Clears Resteers,16.5
+4,Branch Resteers,8.8
+5,Mispredicts Resteers,
+5,Clears Resteers,
 5,Unknown Branches,0.0
 4,MS Switches,0.0
-4,Length Changing Prefixes,0.4
-4,DSB Switches,3.7
-3,Front-End Bandwidth,5.7
-4,Front-End Bandwidth MITE,3.0
-5,Decoder-0 Alone,0.0
-4,Front-End Bandwidth DSB,18.2
-4,Front-End Bandwidth LSD,0.0
-4,MS,0.2
-4,(Info) DSB Coverage,100.0
-4,(Info) LSD Coverage,7.2
-4,(Info) DSB Misses,1.2
-2,Bad Speculation,42.0
-3,Branch Mispredict,5.8
+4,Length Changing Prefixes,0.1
+4,DSB Switches,0.6
+3,Front-End Bandwidth,8.1
+4,Front-End Bandwidth MITE,10.6
+5,Decoder-0 Alone,0.8
+4,Front-End Bandwidth DSB,12.7
+4,Front-End Bandwidth LSD,0.1
+4,MS,2.6
+4,(Info) DSB Coverage,79.9
+4,(Info) LSD Coverage,3.1
+4,(Info) DSB Misses,4.1
+2,Bad Speculation,0.0
+3,Branch Mispredict,4.0
 4,Other Mispredicts,2.2
-3,Machine Clears,36.2
-4,Other Nukes,30.0
-2,Back-End Bound,41.1
-3,Memory Bound,34.0
+3,Machine Clears,0.0
+4,Other Nukes,0.0
+2,Back-End Bound,49.5
+3,Memory Bound,17.5
 4,L1 Bound,0.0
-5,DTLB Overhead,17.9
-6,Load STLB Hit,7.7
-6,Load STLB Miss,10.2
-7,Load STLB Miss 4K,9.5
-7,Load STLB Miss 2M,0.8
+5,DTLB Overhead,0.0
+6,Load STLB Hit,0.0
+6,Load STLB Miss,4.5
+7,Load STLB Miss 4K,4.1
+7,Load STLB Miss 2M,0.4
 7,Load STLB Miss 1G,0.0
-5,Loads Blocked by Store Forwarding,3.0
-5,L1 Latency Dependency,25.2
-5,Lock Latency,21.4
-5,Split Loads,0.4
-5,FB Full,6.4
-4,L2 Bound,0.0
-5,L2 Hit Latency,10.6
-4,L3 Bound,42.1
+5,Loads Blocked by Store Forwarding,0.5
+5,L1 Latency Dependency,0.0
+5,Lock Latency,4.1
+5,Split Loads,0.0
+5,FB Full,9.3
+4,L2 Bound,5.9
+5,L2 Hit Latency,17.5
+4,L3 Bound,9.9
 5,Contested Accesses,0.0
-5,Data Sharing,11.0
-5,L3 Latency,4.5
-5,SQ Full,1.1
-4,DRAM Bound,100.0
-5,Memory Bandwidth,100.0
-5,Memory Latency,0.0
-4,Store Bound,5.9
-5,Store Latency,44.7
+5,Data Sharing,1.4
+5,L3 Latency,100.0
+5,SQ Full,0.3
+4,DRAM Bound,9.9
+5,Memory Bandwidth,30.3
+5,Memory Latency,13.6
+4,Store Bound,1.1
+5,Store Latency,5.3
 5,False Sharing,0.0
 5,Split Stores,0.1
 5,Streaming Stores,0.0
-5,DTLB Store Overhead,4.6
-6,Store STLB Hit,3.5
+5,DTLB Store Overhead,2.8
+6,Store STLB Hit,1.7
 6,Store STLB Miss,1.1
 7,Store STLB Miss 4K,1.1
 7,Store STLB Miss 2M,0.0
 7,Store STLB Miss 1G,0.0
-3,Core Bound,7.1
-4,Divider,0.3
-5,FP Divider,0.1
+3,Core Bound,32.0
+4,Divider,0.1
+5,FP Divider,0.0
 5,INT Divider,0.1
-4,Serializing Operations,31.6
-5,Slow Pause,2.4
+4,Serializing Operations,18.3
+5,Slow Pause,2.3
 5,C01 Wait,0.0
 5,C02 Wait,0.0
-5,Memory Fence,0.3
-4,Port Utilization,37.6
-5,Cycles of 0 Ports Utilized,0.0
+5,Memory Fence,0.1
+4,Port Utilization,12.4
+5,Cycles of 0 Ports Utilized,0.2
 6,Mixing Vectors,0.0
-5,Cycles of 1 Port Utilized,35.5
-5,Cycles of 2 Ports Utilized,31.6
-5,Cycles of 3+ Ports Utilized,33.0
-6,ALU Operation Utilization,6.4
-7,Port 0,6.8
-7,Port 1,6.3
-7,Port 6,10.1
-6,Load Operation Utilization,6.5
-6,Store Operation Utilization,4.4
+5,Cycles of 1 Port Utilized,10.3
+5,Cycles of 2 Ports Utilized,7.0
+5,Cycles of 3+ Ports Utilized,19.0
+6,ALU Operation Utilization,24.0
+7,Port 0,26.2
+7,Port 1,26.7
+7,Port 6,37.5
+6,Load Operation Utilization,20.3
+6,Store Operation Utilization,16.0
 5,Vector Capacity Usage (FPU),49.8
 1,Efficient-core (E-core),
-2,Retiring,53.3
-3,Arith Ops,37.0
-4,Non Divider,36.9
+2,Retiring,6.1
+3,Arith Ops,0.8
+4,Non Divider,0.8
 4,FP Divide,0.0
-4,Int Divider,0.1
-3,Mem Ops,16.3
-4,Loads,9.9
-4,Stores,6.6
-2,Front-End Bound,62.9
-3,IFetch Latency,15.9
-4,ICache Misses,9.4
-4,ITLB Misses,3.0
-4,BACLEARS,6.6
-4,Branch Resteers,1.2
-3,IFetch Bandwidth,47.0
-4,Cisc,7.5
-4,Decode,16.0
-4,Pre-Decode Wrong,0.8
-4,Front-End Other,7.7
-2,Bad Speculation,0.0
-3,Branch Mispredict,61.5
-3,Machine Clears,0.0
-4,Ucode_Assist,0.1
-4,Machine_Restart,0.5
-2,Back-End Bound,100.0
-3,Memory Subsystem Bound,20.1
-4,L2 Bound,9.0
-4,L2 Miss,11.0
-5,L3 Bound,3.7
-5,Memory Bound,7.3
-3,Core Bound,89.2
-4,Serializing Operations,18.4
-5,Pause,1.1
-5,TPause,1.0
-4,L1 Bound,2.6
+4,Int Divider,0.0
+3,Mem Ops,5.4
+4,Loads,3.0
+4,Stores,2.4
+2,Front-End Bound,25.4
+3,IFetch Latency,15.2
+4,ICache Misses,8.0
+4,ITLB Misses,2.8
+4,BACLEARS,5.2
+4,Branch Resteers,0.4
+3,IFetch Bandwidth,10.2
+4,Cisc,2.5
+4,Decode,3.1
+4,Pre-Decode Wrong,0.4
+4,Front-End Other,1.7
+2,Bad Speculation,61.4
+3,Branch Mispredict,9.2
+3,Machine Clears,52.2
+4,Ucode_Assist,0.0
+4,Machine_Restart,0.1
+2,Back-End Bound,7.1
+3,Memory Subsystem Bound,7.1
+4,L2 Bound,1.8
+4,L2 Miss,5.3
+5,L3 Bound,2.1
+5,Memory Bound,3.2
+3,Core Bound,0.0
+4,Serializing Operations,0.0
+5,Pause,0.0
+5,TPause,0.0
+4,L1 Bound,0.0
 4,RB Bound,0.0
-4,Store Bound,67.1
+4,Store Bound,0.0
 4,Execution Bound,0.0
-4,Allocation Bound,1.2
-5,Allocation Restriction,1.2
+4,Allocation Bound,0.0
+5,Allocation Restriction,0.0
 2,Info Metrics,
-3,Stores Bound,1.590493
-3,Load Bound,0.261765
-1,Average CPU Frequency,1943429230.695874
+3,Stores Bound,0.012449
+3,Load Bound,0.232241
+1,Average CPU Frequency,2162201894.510697
 1,Total Thread Count,
 1,Paused Time,0.0
 0,CPU Utilization (%),
-1,Physical Core Utilization,34.6% (4.148 out of 12)
-1,Logical Core Utilization,19.0% (3.045 out of 16)
+1,Physical Core Utilization,18.5% (2.218 out of 12)
+1,Logical Core Utilization,25.8% (4.122 out of 16)
 0,Collection and Platform Info,
-1,Application Command Line,C:\Users\Користувач\Documents\Codex\2026-10-16\1-flamegraph-1-1-2-1\outputs\flamegraph-lab-vs2026-v5\build\bin\Release\matmul_optimized.exe "768" "6" 
 1,Operating System,Microsoft Windows 11
-1,Computer Name,DESKTOP-1KPGLGS
-1,Result Size,4638895
-1,Collection start time,13:15:34 16/10/2026 UTC
-1,Collection stop time,13:15:34 16/10/2026 UTC
+1,Result Size,4639671
+1,Collection start time,18:28:25 24/10/2026 UTC
+1,Collection stop time,18:28:25 24/10/2026 UTC
 1,Collector Type,Event-based counting driver
 1,CPU,
 2,Name,Intel(R) microarchitecture code named Alderlake-P

@@ -1,27 +1,4 @@
-Hierarchy Level,Metric Name,Metric Value
-0,Elapsed Time,6.470686
-1,CPU Time,6.269289
-2,Effective Time,6.269289
-2,Spin Time,0.0
-2,Overhead Time,0.0
-1,Total Thread Count,1
-1,Paused Time,0.0
-0,Top Hotspots,
-0,Function,Module,CPU Time,% of CPU Time(%)
-0,matmul_kernel,matmul_optimized.exe,6.268294,100.0
-0,initialize,matmul_optimized.exe,0.000995,0.0
-0,Collection and Platform Info,
-1,Application Command Line,C:\Users\Користувач\Documents\Codex\2026-10-16\1-flamegraph-1-1-2-1\outputs\flamegraph-lab-vs2026-v5\build\bin\Release\matmul_optimized.exe "768" "200" 
-1,Operating System,Microsoft Windows 11
-1,Computer Name,DESKTOP-1KPGLGS
-1,Result Size,3633907
-1,Collection start time,12:48:25 16/10/2026 UTC
-1,Collection stop time,12:48:32 16/10/2026 UTC
-1,Collector Type,User-mode sampling and tracing
-1,CPU,
-2,Name,Intel(R) microarchitecture code named Alderlake-P
-2,Frequency,3110412238
-2,Logical CPU Count,16
-2,Cache Allocation Technology,
-3,Level 2 capability,not detected
-3,Level 3 capability,not detected
+Function,CPU Time,CPU Time:Effective Time,CPU Time:Spin Time,CPU Time:Overhead Time,Module,Function (Full),Source File,Start Address
+matmul_kernel,8.689431,8.689431,0.0,0.0,matmul_optimized.exe,"matmul_kernel(const float *, const float *, float *, unsigned __int64)",matmul.cpp,0x140001330
+func@0x18001e560,0.030409,0.030409,0.0,0.0,VCRUNTIME140.dll,func@0x18001e560,[Unknown],0x18001e560
+initialize,0.000026,0.000026,0.0,0.0,matmul_optimized.exe,"initialize(float *, float *, unsigned __int64)",matmul.cpp,0x1400011d0
